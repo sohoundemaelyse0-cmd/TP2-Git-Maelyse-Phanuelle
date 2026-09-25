@@ -28,4 +28,7 @@ public class OrderApp {
 			}
 		}
 	}
+    public static double computeTotalwithVat(double unitPrice, int quantity) {
+        return unitPrice * quantity + unitPrice * quantity * 0.2;
+    }
 }
